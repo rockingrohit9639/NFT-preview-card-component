@@ -24,6 +24,13 @@ body {
   background-color: var(--neutral-main-bg);
   font-size: var(--fs-paragraph);
   font-family: var(--font-family);
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -139,4 +146,15 @@ body {
 
 .authorInfo__name {
   color: var(--neutral-white);
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-size: var(--fs-paragraph);
+  padding-block: 1rem;
+}
+
+.highlight {
+  color: var(--primary-cyan);
 }
