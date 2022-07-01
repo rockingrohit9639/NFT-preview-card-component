@@ -46,7 +46,7 @@ body {
 /* Utility Classes  */
 
 .card {
-  width: clamp(200px, 100vw, 330px);
+  width: clamp(200px, 100vw, 370px);
   background-color: var(--neutral-card-bg);
   padding: 1.5rem;
   height: max-content;
@@ -84,13 +84,15 @@ body {
 .card__title {
   font-size: 1.3rem;
   font-weight: var(--fw-bold);
-  margin-block: 0.8rem;
+  margin-block: 1rem;
   color: var(--neutral-white);
 }
 
 .card__content {
+  display: inline-block;
   color: var(--primary-soft-blue);
   font-weight: var(--fw-light);
+  margin-block: 0.5rem;
 }
 
 .card__ethInfo {
@@ -122,6 +124,7 @@ body {
   align-items: center;
   gap: 0.5rem;
   margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .authorInfo__img {
